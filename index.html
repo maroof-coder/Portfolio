@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maroof Ahmed Siddiqui - Class XII student and aspiring front-end developer in Karachi, Pakistan. Explore web projects, skills and contact details.">
+  <meta name="theme-color" content="#211a32">
+  <title>Maroof Ahmed Siddiqui | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-smooth-scroll="true" tabindex="0">
+  <div class="page-loader" id="pageLoader" role="status" aria-live="polite" aria-label="Loading portfolio">
+    <div class="loader-content">
+      <div class="loader-mark">M<span>.</span></div>
+      <div class="loader-orbit"><span></span><span></span><span></span></div>
+      <p>CREATING SOMETHING MEANINGFUL</p>
+      <div class="loader-track"><span></span></div>
+    </div>
+  </div>
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">M<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#qualification">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2"><a class="nav-link cv-nav-link" href="cv.pdf" download><i class="bi bi-file-earmark-arrow-down"></i> CV</a></li>
+          <li class="nav-item theme-nav-item"><button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" title="Switch theme"><i class="bi bi-sun-fill"></i></button></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-orange nav-cta" href="#contact">Hire Me <i class="bi bi-arrow-up-right"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section section-space">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <div class="eyebrow"><span class="eyebrow-line"></span> PERSONAL PORTFOLIO</div>
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-title">Maroof Ahmed<br><span>Siddiqui.</span></h1>
+            <h2 class="hero-subtitle">Aspiring <span id="typingText">Web Developer</span><span class="typing-cursor">|</span></h2>
+            <p class="hero-description">I’m a student and aspiring front-end developer who enjoys turning ideas into clean, responsive and engaging web experiences.</p>
+            <div class="d-flex flex-wrap gap-3 hero-actions">
+              <a href="#projects" class="btn btn-orange">Explore My Work <i class="bi bi-arrow-up-right"></i></a>
+              <a href="#contact" class="btn btn-outline-light">Let's Talk <i class="bi bi-chat-dots"></i></a>
+              <a href="cv.pdf" class="btn btn-cv" download><i class="bi bi-file-earmark-pdf"></i> Download CV</a>
+            </div>
+            <div class="social-links mt-5">
+              <span>FIND ME ON</span>
+              <a href="https://github.com/maroof-coder" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://www.instagram.com/mas._.27/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile" title="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/maroof-ahmed-92b39844b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="https://wa.me/923158477486" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-visual hero-workspace">
+              <div class="workspace-topbar"><div class="workspace-window-dots"><i></i><i></i><i></i></div><span>maroof-portfolio / welcome.js</span><i class="bi bi-three-dots"></i></div>
+              <div class="workspace-body">
+                <div class="workspace-sidebar"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span></div>
+                <div class="workspace-code"><div class="code-line"><span class="code-number">01</span><span><b>const</b> developer = {</span></div><div class="code-line indent"><span class="code-number">02</span><span>name: <em>"Maroof Ahmed"</em>,</span></div><div class="code-line indent"><span class="code-number">03</span><span>focus: <em>"Front-End Development"</em>,</span></div><div class="code-line indent"><span class="code-number">04</span><span>learning: [<em>"Design"</em>, <em>"Code"</em>],</span></div><div class="code-line indent"><span class="code-number">05</span><span>mindset: <em>"Keep Building"</em></span></div><div class="code-line"><span class="code-number">06</span><span>};</span></div><div class="workspace-status"><span></span> AVAILABLE FOR LEARNING & COLLABORATION</div></div>
+              </div>
+              <div class="workspace-float workspace-float-one"><i class="bi bi-braces"></i><span>Clean code</span></div>
+              <div class="workspace-float workspace-float-two"><i class="bi bi-lightning-charge-fill"></i><span>Curious mind</span></div>
+              <div class="workspace-index">BUILD / 2026</div>
+            </div>
+          </div>
+        </div>
+        <a href="#about" class="scroll-indicator"><span></span> SCROLL TO EXPLORE</a>
+      </div>
+    </section>
+    <section id="about" class="section-space section-border">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">GET TO KNOW ME</span>
+          <h2>About <span>Me</span></h2>
+          <p>A little introduction, beyond the screen.</p>
+        </div>
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-5">
+            <div class="about-card">
+              <div class="about-monogram">M<span>.</span></div>
+              <div class="about-card-bottom">
+                <span class="status-dot"></span> Always learning. Always building.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 ps-lg-5">
+            <h3 class="about-lead">Curious mind. <span>Creative approach.</span> Consistent growth.</h3>
+            <p class="body-copy">My name is Maroof Ahmed Siddiqui. I’m currently learning web development and building my skills through practical projects. I enjoy creating websites that look good, work smoothly and are easy to use.</p>
+            <p class="body-copy">I believe every project is an opportunity to learn something new, improve my problem-solving skills and turn an idea into something real.</p>
+            <div class="about-facts">
+              <div><strong>01</strong><span>Learning by doing</span></div>
+              <div><strong>02</strong><span>Focused on web design</span></div>
+              <div><strong>03</strong><span>Growing every day</span></div>
+            </div>
+            <a href="#contact" class="text-link">Let's connect <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="section-space section-border">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">WHAT I DO</span>
+          <h2>My <span>Services</span></h2>
+          <p>Things I’m learning and working towards delivering.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4"><article class="service-card">
+            <div class="service-icon"><i class="bi bi-window"></i></div><span class="service-count">01 / DESIGN</span><h3>Web Design</h3>
+            <p>Clean, thoughtful interfaces with a strong focus on layout, readability and visual consistency.</p>
+            <button class="service-read-more" type="button" data-service-title="Web Design" data-service-icon="bi-window" data-service-description="I plan page structure, visual hierarchy, colour balance and reusable interface patterns. My focus is to make each page easy to understand, visually consistent and comfortable to navigate." data-service-list="Page layout and visual hierarchy|Typography and colour consistency|Reusable sections and components" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More <i class="bi bi-arrow-up-right"></i></button><span class="card-number">01</span>
+          </article></div>
+          <div class="col-md-6 col-lg-4"><article class="service-card">
+            <div class="service-icon"><i class="bi bi-code-slash"></i></div><span class="service-count">02 / DEVELOPMENT</span><h3>Front-End Development</h3>
+            <p>Interactive website interfaces built with HTML, CSS, Bootstrap and JavaScript.</p>
+            <button class="service-read-more" type="button" data-service-title="Front-End Development" data-service-icon="bi-code-slash" data-service-description="I build the visible part of websites and connect interface elements with practical JavaScript interactions. I focus on semantic structure, maintainable styling and clear user flows." data-service-list="Semantic HTML structure|Responsive CSS and Bootstrap layouts|JavaScript interactions and validation" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More <i class="bi bi-arrow-up-right"></i></button><span class="card-number">02</span>
+          </article></div>
+          <div class="col-md-6 col-lg-4"><article class="service-card">
+            <div class="service-icon"><i class="bi bi-phone"></i></div><span class="service-count">03 / RESPONSIVE</span><h3>Responsive Layouts</h3>
+            <p>Layouts that adapt smoothly across desktop, tablet and mobile screen sizes.</p>
+            <button class="service-read-more" type="button" data-service-title="Responsive Layouts" data-service-icon="bi-phone" data-service-description="I use flexible grids, responsive breakpoints and fluid spacing to make websites usable across common screen sizes. I also check navigation, cards and buttons on smaller screens." data-service-list="Bootstrap grid and responsive utilities|Media queries and flexible sizing|Mobile-friendly navigation and controls" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More <i class="bi bi-arrow-up-right"></i></button><span class="card-number">03</span>
+          </article></div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section-space section-border">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">MY TOOLKIT</span>
+          <h2>Skills & <span>Expertise</span></h2>
+          <p>Technologies I’m learning and using in my projects.</p>
+        </div>
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <h3 class="skills-intro">Building a strong foundation in <span>web development.</span></h3>
+            <p class="body-copy">I keep practising the fundamentals and exploring new ways to create better web experiences. Skill levels are self-assessments and will grow with experience.</p>
+            <div class="skill-tags"><span>Problem Solving</span><span>Teamwork</span><span>Creativity</span><span>Continuous Learning</span></div>
+          </div>
+          <div class="col-lg-7">
+            <div class="skills-panel">
+              <div class="skill-item"><div class="skill-label"><span>HTML5</span><b>85%</b></div><div class="progress"><div class="progress-bar" data-width="85%"></div></div></div>
+              <div class="skill-item"><div class="skill-label"><span>CSS3</span><b>80%</b></div><div class="progress"><div class="progress-bar" data-width="80%"></div></div></div>
+              <div class="skill-item"><div class="skill-label"><span>Bootstrap</span><b>82%</b></div><div class="progress"><div class="progress-bar" data-width="82%"></div></div></div>
+              <div class="skill-item"><div class="skill-label"><span>JavaScript</span><b>60%</b></div><div class="progress"><div class="progress-bar" data-width="60%"></div></div></div>
+              <div class="skill-item"><div class="skill-label"><span>Git & GitHub</span><b>77%</b></div><div class="progress"><div class="progress-bar" data-width="77%"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="qualification" class="section-space section-border">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">MY JOURNEY</span>
+          <h2>Education & <span>Qualification</span></h2>
+          <p>The learning path that is shaping my future.</p>
+        </div>
+        <div class="education-intro-panel">
+          <div class="education-intro-icon"><i class="bi bi-mortarboard-fill"></i></div>
+          <div><span class="education-overline">ACADEMIC PROFILE</span><h3>Learning with purpose, building with practice.</h3><p>My academic journey combines formal education with hands-on technical learning.</p></div>
+          <div class="education-current-pill"><i class="bi bi-circle-fill"></i> Currently in Class XII</div>
+        </div>
+        <div class="education-track">
+          <article class="education-entry education-entry-current">
+            <div class="education-track-marker"><i class="bi bi-book-half"></i></div>
+            <div class="education-entry-card">
+              <div class="education-entry-top"><span>01 · CURRENT ACADEMIC PROGRAMME</span><span class="education-entry-status">IN PROGRESS</span></div>
+              <h3>Intermediate — Class XII</h3>
+              <h4>Government Islamia Boys College</h4>
+              <p>Currently studying Intermediate (Pre-Engineering), with a focus on strengthening academic knowledge, analytical thinking and problem-solving skills.</p>
+              <div class="education-detail-grid"><div><small>LEVEL</small><strong>Higher Secondary</strong></div><div><small>GROUP</small><strong>Pre-Engineering</strong></div><div><small>CLASS</small><strong>Year XII</strong></div></div>
+              <div class="education-tags"><span><i class="bi bi-building"></i> College Education</span><span><i class="bi bi-journal-bookmark"></i> Academic Studies</span><span><i class="bi bi-hourglass-split"></i> In Progress</span></div>
+            </div>
+          </article>
+          <article class="education-entry">
+            <div class="education-track-marker"><i class="bi bi-award"></i></div>
+            <div class="education-entry-card">
+              <div class="education-entry-top"><span>02 · SECONDARY EDUCATION</span><span class="education-entry-status education-entry-complete">COMPLETED</span></div>
+              <h3>Matriculation</h3>
+              <h4>Azeemi Public Higher Secondary School</h4>
+              <p>Completed secondary education in 2025, building the foundation for higher studies and a growing interest in technology.</p>
+              <div class="education-detail-grid education-detail-grid-two"><div><small>LEVEL</small><strong>Secondary Education</strong></div><div><small>PASSING YEAR</small><strong>2025</strong></div></div>
+              <div class="education-tags"><span><i class="bi bi-patch-check"></i> Secondary School Certificate</span><span><i class="bi bi-check2-circle"></i> Academic Foundation</span></div>
+            </div>
+          </article>
+          <article class="education-entry education-entry-aptech">
+            <div class="education-track-marker"><i class="bi bi-code-square"></i></div>
+            <div class="education-entry-card">
+              <div class="education-entry-top"><span>03 · TECHNICAL TRAINING</span><span class="education-entry-status">ONGOING</span></div>
+              <h3>ACCPAI — Artificial Intelligence</h3>
+              <h4>Aptech Learning</h4>
+              <p>Aptech Certified Computer Professional – Artificial Intelligence. Developing technical foundations through practical coursework, coding exercises and website projects.</p>
+              <div class="education-detail-grid education-detail-grid-two"><div><small>PROGRAMME</small><strong>ACCPAI</strong></div><div><small>FOCUS</small><strong>Computer & AI Skills</strong></div></div>
+              <div class="education-tags"><span><i class="bi bi-laptop"></i> Practical Projects</span><span><i class="bi bi-braces"></i> Front-End Technologies</span><span><i class="bi bi-people"></i> Collaborative Work</span></div>
+            </div>
+          </article>
+        </div>
+        <div class="education-footnote"><i class="bi bi-info-circle"></i> Academic dates and examination results can be added when officially confirmed.</div>
+      </div>
+    </section>
+    <section id="experience" class="section-space section-border">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">MILESTONES</span>
+          <h2>Experience & <span>Achievements</span></h2>
+          <p>Every milestone is a reminder to keep improving.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6"><article class="achievement-card"><div class="achievement-icon"><i class="bi bi-file-earmark-spreadsheet"></i></div><div class="achievement-content"><span class="achievement-kicker">COMPETITION WIN</span><h3>Excel Competition Winner</h3><p>Won an Excel competition at Aptech, demonstrating practical spreadsheet skills and problem-solving.</p><button class="achievement-more" type="button" data-achievement-kicker="COMPETITION WIN" data-achievement-title="Excel Competition Winner" data-achievement-subtitle="Aptech competition achievement" data-achievement-detail="I secured a win in an Excel competition at Aptech. The experience recognised my ability to work with spreadsheets, organise information and apply practical problem-solving skills." data-achievement-icon="bi-file-earmark-spreadsheet" data-bs-toggle="modal" data-bs-target="#achievementModal">Want To Know More? <i class="bi bi-arrow-up-right"></i></button></div></article></div>
+          <div class="col-md-6"><article class="achievement-card"><div class="achievement-icon"><i class="bi bi-award"></i></div><div class="achievement-content"><span class="achievement-kicker">APTECH RECOGNITION</span><h3>Student of the Month</h3><p>Received two Student of the Month certificates from Aptech.</p><button class="achievement-more" type="button" data-achievement-kicker="APTECH RECOGNITION" data-achievement-title="Student of the Month — 2 Times" data-achievement-subtitle="Two certificates from Aptech" data-achievement-detail="I have received the Student of the Month recognition twice at Aptech. These certificates reflect my consistency, participation and commitment to learning." data-achievement-icon="bi-award" data-bs-toggle="modal" data-bs-target="#achievementModal">Want To Know More? <i class="bi bi-arrow-up-right"></i></button></div></article></div>
+          <div class="col-md-6"><article class="achievement-card"><div class="achievement-icon"><i class="bi bi-trophy"></i></div><div class="achievement-content"><span class="achievement-kicker">SCHOOL ACHIEVEMENTS</span><h3>45+ Certificates</h3><p>Earned more than 45 certificates across school competitions, sports and English-language activities.</p><button class="achievement-more" type="button" data-achievement-kicker="SCHOOL ACHIEVEMENTS" data-achievement-title="45+ Certificates" data-achievement-subtitle="Competitions, sports and language activities" data-achievement-detail="Across my school years, I have earned more than 45 certificates through competitions, sports activities, English-language events and other school achievements. They represent a broad range of participation and learning experiences." data-achievement-icon="bi-trophy" data-bs-toggle="modal" data-bs-target="#achievementModal">Want To Know More? <i class="bi bi-arrow-up-right"></i></button></div></article></div>
+          <div class="col-md-6"><article class="achievement-card"><div class="achievement-icon"><i class="bi bi-code-slash"></i></div><div class="achievement-content"><span class="achievement-kicker">PRACTICAL LEARNING</span><h3>Project-Based Development</h3><p>Building responsive websites and strengthening front-end skills through coursework and personal projects.</p><button class="achievement-more" type="button" data-achievement-kicker="PRACTICAL LEARNING" data-achievement-title="Project-Based Development" data-achievement-subtitle="Learning through hands-on practice" data-achievement-detail="I have practised front-end development by building projects such as Alpine Ascents, Craveora and responsive website interfaces. I am currently a student and do not yet have formal internship or professional work experience." data-achievement-icon="bi-code-slash" data-bs-toggle="modal" data-bs-target="#achievementModal">Want To Know More? <i class="bi bi-arrow-up-right"></i></button></div></article></div>
+        </div>
+        <p class="body-copy mt-4"><i class="bi bi-info-circle"></i> I am currently focused on learning and project-based practice. I have not completed a formal internship or held a professional role yet.</p>
+      </div>
+    </section>
+    <section id="projects" class="section-space section-border">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">SELECTED WORK</span>
+          <h2>Featured <span>Projects</span></h2>
+          <p>A selection of projects from my learning journey.</p>
+        </div>
+        <div class="row g-4 project-grid">
+          <div class="col-md-6"><article class="project-card">
+            <div class="project-preview preview-mountain"><div class="preview-label">01 / FEATURED PROJECT</div><i class="bi bi-mountain"></i><span>ALPINE ASCENTS</span></div>
+            <div class="project-info"><div class="project-meta">HTML · CSS · JAVASCRIPT · BOOTSTRAP</div><h3>Alpine Ascents</h3><p>A mountain exploration website with educational content, visual storytelling and interactive sections.</p><div class="project-tags"><span>Responsive UI</span><span>Team Project</span></div><div class="project-actions"><a href="https://exquisite-vacherin-8fd6cb.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-primary"><i class="bi bi-box-arrow-up-right"></i><span>Live Demo</span></a><a href="https://github.com/maroof-coder/Alpine-Ascents" target="_blank" rel="noopener noreferrer" class="project-btn"><i class="bi bi-github"></i><span>GitHub Repo</span></a></div></div>
+          </article></div>
+          <div class="col-md-6"><article class="project-card">
+            <div class="project-preview preview-food"><div class="preview-label">02 / WEB PROJECT</div><i class="bi bi-egg-fried"></i><span>CRAVEORA</span></div>
+            <div class="project-info"><div class="project-meta">HTML · CSS · JAVASCRIPT</div><h3>Craveora</h3><p>A food website concept focused on presenting menu content in a clear and engaging interface.</p><div class="project-tags"><span>Food Website</span><span>Front-End</span></div><div class="project-actions"><a href="https://earnest-ganache-74798b.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-primary"><i class="bi bi-box-arrow-up-right"></i><span>Live Demo</span></a><a href="https://github.com/maroof-coder/Craveora" target="_blank" rel="noopener noreferrer" class="project-btn"><i class="bi bi-github"></i><span>GitHub Repo</span></a></div></div>
+          </article></div>
+          <div class="col-md-6"><article class="project-card">
+            <div class="project-preview preview-store"><div class="preview-label">03 / PRACTICE PROJECT</div><i class="bi bi-bag"></i><span>SHOPIFY</span></div>
+            <div class="project-info"><div class="project-meta">BOOTSTRAP · CSS · JAVASCRIPT</div><h3>Shopify Store</h3><p>A responsive online-store interface built to practise product layouts, navigation and front-end interactions.</p><div class="project-tags"><span>E-Commerce UI</span><span>Responsive</span></div><div class="project-actions"><a href="https://shopify-one.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-primary"><i class="bi bi-box-arrow-up-right"></i><span>Live Demo</span></a><a href="https://github.com/maroof-coder/Shopify" target="_blank" rel="noopener noreferrer" class="project-btn"><i class="bi bi-github"></i><span>GitHub Repo</span></a></div></div>
+          </article></div>
+          <div class="col-md-6"><article class="project-card">
+            <div class="project-preview preview-wood"><div class="preview-label">04 / PRACTICE PROJECT</div><i class="bi bi-brush"></i><span>WOODCRAFT</span></div>
+            <div class="project-info"><div class="project-meta">BOOTSTRAP · HTML · CSS</div><h3>WoodCraft</h3><p>A practice website exploring structured content, navigation patterns and responsive components.</p><div class="project-tags"><span>Bootstrap</span><span>Practice Build</span></div><div class="project-actions"><a href="https://marvelous-torte-45dfcf.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-primary"><i class="bi bi-box-arrow-up-right"></i><span>Live Demo</span></a><a href="https://github.com/maroof-coder/Wood-Craft" target="_blank" rel="noopener noreferrer" class="project-btn"><i class="bi bi-github"></i><span>GitHub Repo</span></a></div></div>
+          </article></div>
+        </div>
+      </div>
+    </section>
+    <section id="hire" class="section-space section-border">
+      <div class="container">
+        <div class="hire-card">
+          <div class="hire-content"><span class="section-kicker">HAVE A PROJECT IN MIND?</span><h2>Let's build something <span>meaningful.</span></h2><p>I’m always interested in learning, collaborating and taking on new challenges. Let’s discuss an idea.</p><a href="#contact" class="btn btn-orange">Hire Me <i class="bi bi-arrow-up-right"></i></a></div>
+          <div class="hire-decoration"><i class="bi bi-chat-square-dots"></i></div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section-space section-border">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">GET IN TOUCH</span>
+          <h2>Contact <span>Me</span></h2>
+          <p>Have a question or an idea? Send me a message.</p>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <h3 class="contact-heading">Let's start a <span>conversation.</span></h3>
+            <p class="body-copy">Feel free to reach out for project discussions, collaboration or just to connect.</p>
+            <div class="contact-detail"><div><i class="bi bi-envelope"></i></div><section><small>EMAIL</small><a href="mailto:maroof13679@gmail.com">maroof13679@gmail.com</a></section></div>
+            <div class="contact-detail"><div><i class="bi bi-telephone"></i></div><section><small>PHONE</small><a href="tel:+923158477486">+92 315 8477486</a></section></div>
+            <div class="contact-detail"><div><i class="bi bi-geo-alt"></i></div><section><small>LOCATION</small><span>Karachi, Pakistan</span></section></div>
+            <div class="contact-detail"><div><i class="bi bi-github"></i></div><section><small>GITHUB</small><a href="https://github.com/maroof-coder" target="_blank" rel="noopener noreferrer">github.com/maroof-coder</a></section></div>
+            <div class="contact-detail"><div><i class="bi bi-instagram"></i></div><section><small>INSTAGRAM</small><a href="https://www.instagram.com/mas._.27/" target="_blank" rel="noopener noreferrer">@mas._.27</a></section></div>
+            <div class="contact-detail"><div><i class="bi bi-linkedin"></i></div><section><small>LINKEDIN</small><a href="https://www.linkedin.com/in/maroof-ahmed-92b39844b/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></section></div>
+            <div class="contact-detail"><div><i class="bi bi-whatsapp"></i></div><section><small>WHATSAPP</small><a href="https://wa.me/923158477486" target="_blank" rel="noopener noreferrer">+92 315 8477486</a></section></div>
+          </div>
+          <div class="col-lg-7">
+            <form id="contactForm" class="contact-form">
+              <div class="contact-form-heading"><div><span class="section-kicker">SEND A MESSAGE</span><h3>Tell me about your idea.</h3><p>Share a few details and I’ll get back to you.</p></div><div class="contact-form-symbol"><i class="bi bi-send-fill"></i></div></div>
+              <div class="row g-3">
+                <div class="col-md-6"><label for="name" class="form-label">Your Name</label><input class="form-control" id="name" name="name" type="text" placeholder="Enter your name" required></div>
+                <div class="col-md-6"><label for="email" class="form-label">Your Email</label><input class="form-control" id="email" name="email" type="email" placeholder="Enter your email" required></div>
+                <div class="col-12"><label for="topic" class="form-label">What would you like to discuss?</label><select class="form-select" id="topic" name="topic" required><option value="" selected disabled>Select a topic</option><option>Website Development</option><option>Project Collaboration</option><option>Learning & Feedback</option><option>General Enquiry</option></select></div>
+                <div class="col-12"><label for="subject" class="form-label">Subject</label><input class="form-control" id="subject" name="subject" type="text" placeholder="Add a short subject" required></div>
+                <div class="col-12"><div class="message-label-row"><label for="message" class="form-label">Your Message</label><span id="messageCounter">0 / 500</span></div><textarea class="form-control" id="message" name="message" rows="5" maxlength="500" placeholder="Tell me a little about what you have in mind..." required></textarea></div>
+                <div class="col-12 d-flex flex-wrap align-items-center gap-3"><button class="btn btn-orange" type="submit">Send Message <i class="bi bi-send"></i></button><span id="formMessage" class="form-message" role="status"></span></div>
+              </div>
+              <p class="form-note"><i class="bi bi-shield-check"></i> Your details are used only to prepare an email to Maroof. Submitting opens your email app.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top"><a class="navbar-brand" href="#home">M<span>.</span></a><p>Learning today. Building for tomorrow.</p><a href="#home" class="back-top">BACK TO TOP <i class="bi bi-arrow-up"></i></a></div>
+      <div class="footer-bottom"><span>© <span id="year"></span> Maroof Ahmed Siddiqui. All rights reserved.</span><span>Designed with <i class="bi bi-heart-fill"></i> and curiosity.</span></div>
+    </div>
+  </footer>
+
+
+  <div class="modal fade service-modal" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header"><div class="service-modal-heading"><span class="service-modal-icon"><i id="serviceModalIcon" class="bi bi-window"></i></span><div><span class="section-kicker">SERVICE DETAILS</span><h2 class="modal-title" id="serviceModalTitle">Service</h2></div></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+        <div class="modal-body"><p id="serviceModalDescription"></p><h3>What this includes</h3><ul id="serviceModalList"></ul></div>
+        <div class="modal-footer"><a href="#contact" id="discussProjectButton" class="btn btn-orange">Discuss a Project <i class="bi bi-arrow-up-right"></i></a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade service-modal achievement-modal" id="achievementModal" tabindex="-1" aria-labelledby="achievementModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><div class="service-modal-heading"><span class="service-modal-icon"><i id="achievementModalIcon" class="bi bi-award"></i></span><div><span class="section-kicker" id="achievementModalKicker">MILESTONE DETAILS</span><h2 class="modal-title" id="achievementModalTitle">Achievement</h2></div></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><span class="achievement-modal-subtitle" id="achievementModalSubtitle"></span><p id="achievementModalDescription"></p></div><div class="modal-footer"><button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button><a href="#projects" id="exploreProjectsButton" class="btn btn-orange">Explore Projects <i class="bi bi-arrow-up-right"></i></a></div></div></div>
+  </div>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
